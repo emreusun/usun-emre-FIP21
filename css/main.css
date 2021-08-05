@@ -1976,14 +1976,14 @@ animation: slideIn 2s ease-out 1, fadeIn 2s ease-out 1;
 .beerpanel img {
   display: flex;
   width: 400px;
-  height: 245px;
+  height: 309px;
  justify-content: center;
- margin-left: 80px;
+ margin-left: 150px;
  margin-top: 20px;
 }
 .beerpanel h2 {
   font-family: carlsbergregular;
-  font-size: 50px;
+  font-size: 35px;
   margin-top: 62px;
 }
 .beerpanel h3 {
@@ -2017,7 +2017,7 @@ margin-bottom: 300px;
   width:160px;
   border: 2px solid #D5D5D5;
   border-radius: 2px;
-  margin-left: 45px;
-margin-top: 10px;
+  margin-left: 230px;
+margin-top: 20px;
 }
 }
