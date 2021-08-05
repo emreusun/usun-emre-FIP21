@@ -1,0 +1,2023 @@
+/* first page */
+*{
+  margin:0;
+  padding:0;
+}
+@font-face {
+   font-family: 'carlsbergregular';
+   src: url('carlsberg-webfont.woff2') format('woff2'),
+        url('carlsberg-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+#showcase{
+  background-color: white;
+  background-size:cover;
+  background-position:center;
+  max-width: 1200px;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+
+}
+
+#showcase h1{
+  font-size:50px;
+  line-height:1.2;
+}
+
+#showcase p{
+  font-size:20px;
+  color: green;
+	line-height: 100px;
+
+	text-align: center;
+	margin: 0;
+}
+
+#showcase .button{
+  font-size:18px;
+  text-decoration:none;
+  color:#0A4704;
+  border:#0A4704 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+#showcase .button:hover{
+  background:#000000;
+  color:#fff;
+}
+/* body{
+  margin:0;
+  font-family: "Arial Rounded MT Bold", "Helvetica Neue", Helvetica, sans-serif;
+  font-size:17px;
+  color: green;
+  line-height:1.6;
+}
+*/
+/*Utility Class*/
+.hide { display: none; }
+
+/* General rules - scales images, videos to size of container */
+img, embed, object, video { max-width: 100%; }
+video {
+  width: 100%;
+  position: relative;
+
+}
+html { box-sizing: border-box; }
+
+*, *::before, *::after { box-sizing: inherit; }
+
+
+/*General Rules for Elements*/
+
+body {
+	font-family: 'Lato', Helvetica,  sans-serif;
+	background-color: #fff;
+	font-size: 100%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  transition:all .1s linear 0s;
+}
+
+h2  { font-family: 'carlsbergregular', Helvetica, sans-serif; }
+h3 {font-family: 'Lato', Helvetica, sans-serif; }
+
+.container {
+  margin: 0px auto;
+  max-width: 1200px;
+  max-height: 1200px;
+  padding: 10px;
+  position: relative;
+
+}
+@media screen and ( min-width: 1200px ) {
+/* desktop size */
+/* first page */
+
+
+
+  #mainHeader{
+		display: flex;
+		flex-direction: row;
+		margin-left: 20px;
+		margin-right: 20px;
+
+	}
+
+	#logoCon {
+		order: -1;
+		margin: 10px 0 0 0;
+	}
+
+	#Logo {
+
+		margin:0;
+		display: inline;
+    height: 108px;
+    max-width: 162px;
+
+	}
+
+	#button { display: none; }
+
+	#burgerCon {
+		/*display: block;*/
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
+
+	#mainNav {
+		text-align: right;
+		text-transform: uppercase;
+		font-size: .875em;
+		margin-left: auto;
+	}
+
+	#burgerMenu { text-align: right; }
+
+	#mainNav li {
+		border-bottom: none;
+		display: inline;
+		margin-left: 20px;
+	}
+
+	#mainNav li a {
+		background-color: #fff;
+		display: inline;
+		padding: 5px 0 5px 0;
+		text-decoration: none;
+		color: #0d6a38;
+	}
+
+	#mainNav li a:hover {
+		color: grey;
+		border-bottom: 3px solid #a51e24;
+		padding-bottom: 5px;
+		background-color: transparent;
+	}
+
+	#mainNav li:first-child  { border-top: none; }
+
+	#mainNav li:last-child { margin-bottom: 0; }
+  #pano {
+    background-image: url(../images/bar-web.jpg);
+    background-size: cover;
+
+  }
+  #slider-box {
+  	width:792px;
+
+
+
+  	overflow:hidden;
+  }
+  #pano h2 { font-size: 42px; }
+
+  #pano h3 { width: 545px; }
+  #pano h3 { font-size: 20px;}
+  #pano h4 { font-size: 20px;}
+
+  #learnMore { width: 170px; }
+
+  .products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 10px 20px 20px;
+  }
+  .know {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+  .know h2 {
+    text-align: center;
+    font-family: Lato;
+    font-size: 50px;
+
+  }
+  .boxBig {
+    display: flex;
+    flex-direction: row;
+  }
+  .boxPromo1 {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #D5D5D5;
+    border-radius: 10px;
+    height: 427.5px;
+    width: 317.5px;
+    padding: 10px 10px 10px 10px;
+  }
+  .boxContent {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .boxPromo1 img {
+    display: flex;
+    justify-content: center;
+    width: 215px;
+    height: 166px;
+    margin-left: 50px;
+    margin-top:  30px;
+    border-radius: 8px;
+  }
+  .boxPromo1 h2 {
+    display: flex;
+    flex-direction: column;
+    font-family: carlsbergregular;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+    word-spacing: 250px;
+  }
+  .boxPromo2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 62px;
+    background-color: #D5D5D5;
+    border-radius: 10px;
+    height: 427.5px;
+    width: 317.5px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 0;
+  }
+  .boxContent2 {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .boxPromo2 img {
+    display: flex;
+    justify-content: center;
+    width: 215px;
+    height: 166px;
+    margin-left: 50px;
+    margin-top:  30px;
+    border-radius: 8px;
+  }
+  .boxPromo2 h2 {
+    display: flex;
+    flex-direction: column;
+    font-family: carlsbergregular;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+    word-spacing: 250px;
+  }
+  .boxPromo3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 62px;
+    background-color: #D5D5D5;
+    border-radius: 10px;
+    height: 427.5px;
+    width: 317.5px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 0;
+  }
+  .boxContent3 {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .boxPromo3 img {
+    display: flex;
+    justify-content: center;
+    width: 215px;
+    height: 166px;
+    margin-left: 50px;
+    margin-top:  30px;
+    border-radius: 8px;
+  }
+  .boxPromo3 h2 {
+    display: flex;
+    flex-direction: column;
+    font-family: carlsbergregular;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+    word-spacing: 250px;
+  }
+  #mainFooter {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #footerNav {
+
+
+    height: 100px;
+    width: 500px;
+    background-color: #747d79;
+
+  }
+
+  nav ul{
+    text-align: center;
+    /* float: right; */
+     margin-right:  15px;
+     padding-top: 25px;
+
+
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: normal;
+    padding: 10px 5px;
+
+
+  }
+
+  nav ul li a {
+   transition: all 0.3s ease 0s;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+
+  }
+
+  nav ul li a:hover {
+  color: #0A4704;
+  }
+
+  #copyRight
+  {
+
+    margin-left: auto;
+    width: 310px;
+    height: 100px;
+
+    background-color: #747d79;
+
+
+  }
+
+  #copyRight-text {
+    padding-top: 15px;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  #copyRight-text p {
+    width: 100%;
+  }
+
+  .socialicons{
+   list-style-position: inside;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+
+
+  }
+  .socialicons li{
+
+   margin: 0 10px;
+   color: #fff;
+
+
+  }
+  .socialicons li a i{
+    width: 14px;
+    height: 14px;
+  }
+  .socialicons a:hover i{
+    color: #fff;
+  }
+}
+/*shop */
+/* shop page */
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro h2 {
+  font-family: carlsbergregular;
+  font-size: 50px;
+  margin-top: 20px;
+  text-align: center;
+  color: #016A38;
+}
+.intro video  {
+  display: flex;
+ flex-direction: row;
+  width: 443px;
+  height: 342px;
+  margin-left: 60px;
+  align-items: center;
+  margin-left: 150px;
+
+
+}
+
+.buy-container {
+  display: flex;
+  flex-direction: row;
+
+
+}
+.buy {
+  display: flex;
+  flex-direction: column;
+
+
+}
+.Beer1-container{
+  display: flex;
+  flex-direction: row;
+
+  padding-top: 10px;
+  width: 200px;
+  height: 380px;
+}
+.Beer1 {
+ display: flex;
+ flex-direction: column;
+ margin-bottom: auto;
+}
+
+.Beer1 img {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+
+
+
+}
+.beerText1 a  {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 260px;
+  height: 176px;
+
+  border:2px solid #D5D5D5;
+  margin-top: 10px;
+
+  margin-right: 20px;
+  background-color: #D5D5D5;
+  margin-bottom: 50px;
+}
+
+.beerText1 a h2 {
+  display: flex;
+  font-size: 50px;
+  color: #016A38;
+  padding-left: 10px;
+  padding-top: 10px;
+
+
+}
+.buy2 {
+  display: flex;
+  flex-direction: column;
+
+}
+.Beer2-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  padding-top: 10px;
+  width: 200px;
+  height: 380px;
+}
+.Beer2 {
+ display: flex;
+ flex-direction: column;
+ margin-bottom: auto;
+}
+.Beer2 img {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+
+
+}
+.beerText2 a  {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 260px;
+  height: 176px;
+
+  border:2px solid #D5D5D5;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 20px;
+  background-color: #D5D5D5;
+  margin-bottom: 50px;
+}
+
+.beerText2 a h2 {
+  display: flex;
+  font-size: 50px;
+  color: #016A38;
+  padding-left: 10px;
+  padding-top: 10px;
+
+
+}
+.buy3 {
+  display: flex;
+  flex-direction: column;
+
+}
+.Beer3-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  padding-top: 10px;
+  width: 200px;
+  height: 380px;
+}
+.Beer3 {
+ display: flex;
+ flex-direction: column;
+ margin-bottom: auto;
+}
+.Beer3 img {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+
+
+}
+.beerText3 a  {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 260px;
+  height: 176px;
+
+  border:2px solid #D5D5D5;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 20px;
+  background-color: #D5D5D5;
+  margin-bottom: 50px;
+}
+
+.beerText3 a h2 {
+  display: flex;
+  font-size: 50px;
+  color: #016A38;
+  padding-left: 10px;
+  padding-top: 10px;
+
+
+}
+/* our beer page */
+#beerSlide {
+
+
+
+}
+.beerpanel {
+display: inline;
+overflow: hidden;
+
+width:1094px;
+height:350px;
+z-index: 2;
+animation: slideIn 2s ease-out 1, fadeIn 2s ease-out 1;
+}
+.beerpanel img {
+  display: flex;
+  width: 538px;
+  height: 412px;
+ justify-content: center;
+ margin-left: 350px;
+}
+.beerpanel h2 {
+  font-family: carlsbergregular;
+  font-size: 50px;
+  margin-top: 62px;
+}
+.beerpanel h3 {
+  font-family: Lato;
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+.beerpanel p {
+  font-family: Lato;
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+.hidden {
+  display: none;
+}
+#links {
+position: absolute;
+left:40px;
+top:450px;
+width:500px;
+height:350px;
+z-index:2;
+margin-bottom: 300px;
+}
+
+#swapbutton {
+  display: flex;
+
+  width:160px;
+  border: 2px solid #D5D5D5;
+  border-radius: 2px;
+  margin-left: 520px;
+margin-top: 100px;
+}
+
+/*  screen  */
+/*Header and Nav*/
+
+#mainHeader {	margin-left: 10px; margin-right: 10px; }
+
+/*We Want to push burger menu all the way to right*/
+#mainNav { margin-bottom: 20px; text-align: right; }
+
+#burgerCon {
+  display: none; /*hide intitially*/
+  margin-top: 20px; /*bump menu below 3 lines*/
+}
+
+ #burgerCon.slideToggle { display: block; }
+
+ #mainNav button {
+  background: url(../images/burger.svg) center no-repeat;
+  border: 0px;
+  width: 20px;
+  height: 20px;
+  transition: all 100ms ease;
+}
+
+ #mainNav button.expanded {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(60deg);
+  transform: rotate(90deg);
+ }
+
+
+#mainNav li a {
+  /*ancor tags are inline by deafult, set to block so we can add padding*/
+  display: block;
+  color: #016a38;
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+
+#mainNav li { border-bottom: 1px solid #efefef; }
+
+
+
+#mainNav li:last-child { margin-bottom: 10px; }
+
+#mainNav li a:hover { background-color: #efefef; }
+/* logo*/
+#Logo {
+	display: block;
+	max-width: 130px;
+	margin: 20px auto 25px auto;
+}
+#pano {
+	margin-top: 20px;
+
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+  padding-bottom: 10px;
+
+	height: 220px;
+	background-image: url(../images/bar-.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+#pano h2 { font-size: 22px;
+color: white;
+letter-spacing: 2px;
+padding-left: 5px;
+}
+
+#pano h3 {
+  width: 30%;
+  font-size: 10px;
+  width: 545px;
+color: white;
+
+}
+#pano h4 {
+  font-size: 10px;
+  width: 545px;
+color: white;
+padding-bottom: 20px;
+margin-bottom: 20px;
+}
+#pano a {
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+#learnMore { width: 170px; }
+#learnMore:hover {
+	background-color: rgba(76,97,88,.8);
+}
+.products {
+  display: inline;
+  flex-direction: column;
+  padding: 10px 20px 30px;
+
+}
+
+.know {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.know h2 {
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+
+}
+.boxPromo1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #D5D5D5;
+  border-radius: 10px;
+  height: 140px;
+  width: 291px;
+  padding: 10px 10px 10px 10px;
+}
+.boxContent {
+  display: flex;
+  flex-direction: row;
+}
+.boxPromo1 img {
+  display: flex;
+  width: 167px;
+  height: 129px;
+  padding-bottom: 2px;
+  padding-right: 5px;
+  border-radius: 8px;
+}
+.boxPromo1 h2 {
+  display: flex;
+  flex-direction: row;
+  font-family: Lato;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40px;
+}
+.boxPromo2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #D5D5D5;
+  border-radius: 10px;
+  height: 140px;
+  width: 291px;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+
+}
+.boxContent2 {
+  display: flex;
+  flex-direction: row;
+
+}
+.boxPromo2 img {
+  display: flex;
+  width: 167px;
+  height: 129px;
+  padding-bottom: 2px;
+  padding-right: 5px;
+  border-radius: 8px;
+}
+.boxPromo2 h2 {
+  display: flex;
+  flex-direction: row;
+  font-family: Lato;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-top: 40px;
+  word-spacing: 18px;
+}
+.boxPromo3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #D5D5D5;
+  border-radius: 10px;
+  height: 140px;
+  width: 291px;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+
+}
+.boxContent3 {
+  display: flex;
+  flex-direction: row;
+
+}
+.boxPromo3 img {
+  display: flex;
+  width: 167px;
+  height: 129px;
+  padding-bottom: 2px;
+  padding-right: 5px;
+  border-radius: 8px;
+}
+.boxPromo3 h2 {
+  display: flex;
+  flex-direction: row;
+  font-family: Lato;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-top: 40px;
+  word-spacing: 18px;
+}
+
+#mainFooter {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+#footerNav {
+
+
+  height: 100px;
+  width: 500px;
+  background-color: #747d79;
+
+}
+
+nav ul{
+  text-align: center;
+  /* float: right; */
+   margin-right:  15px;
+   padding-top: 25px;
+
+
+}
+nav ul li{
+  display: inline-block;
+  line-height: normal;
+  padding: 10px 5px;
+
+
+}
+
+nav ul li a {
+ transition: all 0.3s ease 0s;
+  color: white;
+  font-size: 8px;
+  text-transform: uppercase;
+  display: block;
+
+}
+
+nav ul li a:hover {
+color: #0A4704;
+}
+
+#copyRight
+{
+
+  margin-left: auto;
+  width: 310px;
+  height: 100px;
+
+  background-color: #747d79;
+
+
+}
+
+#copyRight-text {
+  padding-top: 15px;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+
+}
+
+#copyRight-text p {
+  width: 80%;
+}
+
+
+.socialicons{
+ list-style-position: inside;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding-top: 15px;
+
+
+
+}
+.socialicons li{
+
+ margin: 0 10px;
+ color: #fff;
+
+
+}
+.socialicons li a i{
+  width: 14px;
+  height: 14px;
+}
+.socialicons a:hover i{
+  color: #fff;
+}
+/* about us */
+#left-box {
+  display: flex;
+  flex-direction: column;
+  width: 278px;
+  height: 295px;
+  border:2px solid #D5D5D5;
+  background-color: #D5D5D5;
+  text-align: left;
+  margin-left: 30px;
+}
+#left-box img {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 108px;
+  justify-content: center;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#left-box h2 {
+  display: inline;
+  flex-direction: row;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+.text-box  {
+  display: flex;
+  justify-content: space-around;
+
+  font-family: Lato;
+  font-size: 8px;
+  flex-direction: row;
+  width: 278px;
+  height: 130px;
+}
+.text-box2 {
+  display: flex;
+  flex-direction: row;
+  height: 110px;
+  width: 120px;
+  padding-top: 5px;
+}
+.text-box2 p {
+
+  color: white;
+  word-spacing: 1.99px;
+  letter-spacing: 0.4px;
+}
+.future-box {
+  display: flex;
+  flex-direction: column;
+  width: 115px;
+  height: 106px;
+  word-spacing: 1px;
+  letter-spacing: 0.4px;
+
+}
+.future-box p {
+ color: white;
+padding-top: 5px;
+}
+#factory {
+  display: flex;
+  flex-direction: column;
+}
+#factory img {
+  width: 278px;
+  height:165px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+#brew {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  height: 143px;
+  border-radius: 30px;
+  background-color: #D5D5D5;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 30px;
+  border:1px solid #707070;
+
+}
+#brew h2{
+  font-size: 20px;
+  padding-top: 20px;
+  color: #006A38;
+  padding-left: 10px;
+
+}
+#brew p {
+  font-size: 10px;
+  color: #006A38;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+/* shop page */
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+.intro h2 {
+  font-family: carlsbergregular;
+  font-size: 15px;
+  text-align: center;
+  color: #016A38;
+}
+.intro video {
+  display: flex;
+  width: 287px;
+  height: 222px;
+  margin-left: 25px;
+
+}
+.buy-container {
+  display: flex;
+  flex-direction: column;
+}
+.buy {
+  display: flex;
+  flex-direction: row;
+
+}
+.Beer1-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  padding-top: 10px;
+  width: 140px;
+  height: 109px;
+}
+.Beer1 {
+ display: flex;
+ flex-direction: row;
+}
+.Beer1 img {
+  display: flex;
+  width: 140px;
+  height: 109px;
+}
+.beerText1 a  {
+  display: flex;
+  border-radius: 5px;
+  width: 128px;
+  height: 82px;
+  width: 128px;
+  border:2px solid #D5D5D5;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: #D5D5D5;
+}
+.button2 {
+
+
+	border-radius: 30px;
+	text-decoration: none;
+	padding: 10px 28px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+
+}
+.beerText1 a h2 {
+  display: flex;
+  font-size: 20px;
+  color: #016A38;
+  padding-left: 10px;
+  padding-top: 10px;
+
+
+}
+
+.buy2 {
+  display: flex;
+  flex-direction: row;
+
+}
+.Beer2-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  padding-top: 10px;
+  width: 140px;
+  height: 109px;
+}
+.Beer2 {
+ display: flex;
+ flex-direction: row;
+}
+.Beer2 img {
+  display: flex;
+  width: 140px;
+  height: 109px;
+ margin-top: 30px;
+}
+.beerText2 a {
+  display: flex;
+  border-radius: 5px;
+  width: 128px;
+  height: 82px;
+  width: 128px;
+  border:2px solid #D5D5D5;
+  margin-top: 40px;
+  margin-left: 20px;
+  background-color: #D5D5D5;
+}
+.button3 {
+  border-radius: 30px;
+	text-decoration: none;
+	padding: 10px 28px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+}
+.beerText2 a h2 {
+  display: flex;
+  font-size: 20px;
+  color: #016A38;
+  padding-left: 10px;
+  padding-top: 10px;
+  word-spacing: 50px;
+}
+
+.buy3 {
+  display: flex;
+  flex-direction: row;
+
+}
+.Beer3-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  padding-top: 10px;
+  width: 140px;
+  height: 109px;
+  margin-top: 60px;
+}
+.Beer3 {
+ display: flex;
+ flex-direction: row;
+}
+.Beer3 img {
+  display: flex;
+  width: 140px;
+  height: 109px;
+
+}
+.beerText3 a {
+  display: flex;
+  border-radius: 5px;
+  width: 128px;
+  height: 82px;
+  width: 128px;
+  border:2px solid #D5D5D5;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: #D5D5D5;
+}
+.button3 {
+  border-radius: 30px;
+	text-decoration: none;
+	padding: 10px 28px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+}
+.beerText3 a h2 {
+  display: flex;
+  font-size: 20px;
+  color: #016A38;
+  padding-left: 10px;
+  padding-top: 10px;
+  word-spacing: 50px;
+}
+
+/* pop up */
+
+
+
+.popup-modal {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.modal-contents {
+	height: 300px;
+	width: 300px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	border-radius: 4px;
+}
+.button4 {
+  border-radius: 20px;
+	text-decoration: none;
+  border:2px solid #D5D5D5;
+	color: grey;
+ width:60px;
+	display: inline-block;
+  background-color: #D5D5D5;
+}
+input {
+	margin: 15px auto;
+	display: block;
+	width: 50%;
+	padding: 8px;
+	border: 1px solid gray;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+
+}
+/* beer page */
+#beerSlide {
+
+
+
+}
+.beerpanel {
+display: inline;
+overflow: hidden;
+
+width:1094px;
+height:350px;
+z-index: 2;
+animation: slideIn 2s ease-out 1, fadeIn 2s ease-out 1;
+}
+.beerpanel img {
+  display: flex;
+  width: 304px;
+  height: 235px;
+ justify-content: center;
+ margin-left: 20px;
+}
+.beerpanel h2 {
+  font-family: carlsbergregular;
+  font-size: 20px;
+  margin-top: 62px;
+}
+.beerpanel h3 {
+  font-family: Lato;
+  font-size: 10px;
+  margin-top: 20px;
+
+}
+.beerpanel p {
+  font-family: Lato;
+  font-size: 10px;
+  margin-top: 20px;
+
+}
+.hidden {
+  display: none;
+}
+#links {
+position: absolute;
+left:40px;
+top:450px;
+width:500px;
+height:350px;
+z-index:2;
+margin-bottom: 300px;
+}
+
+#swapbutton {
+  display: flex;
+
+  width:160px;
+  border: 2px solid #D5D5D5;
+  border-radius: 2px;
+  margin-left: 45px;
+margin-top: 10px;
+}
+
+/* mobile end */
+@media screen and ( min-width: 812px ) {
+  /* landscape screen */
+/* first page */
+
+  #mainHeader{
+		display: flex;
+		flex-direction: row;
+		margin-left: 20px;
+		margin-right: 20px;
+
+	}
+
+	#logoCon {
+		order: -1;
+		margin-top: 10px;
+    margin-right: 10px;
+
+	}
+
+	#Logo  {
+		margin:0;
+
+    height: 108px;
+
+
+	}
+
+	#button { display: none; }
+
+	#burgerCon {
+		/*display: block;*/
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
+
+	#mainNav {
+		text-align: right;
+		text-transform: uppercase;
+		font-size: .875em;
+		margin-left: auto;
+
+	}
+
+	#burgerMenu { text-align: right; }
+
+	#mainNav li {
+		border-bottom: none;
+		display: inline;
+		margin-left: 20px;
+	}
+
+	#mainNav li a {
+		background-color: #fff;
+		display: inline;
+		padding: 5px 0 5px 0;
+		text-decoration: none;
+		color: #0d6a38;
+	}
+
+	#mainNav li a:hover {
+		color: grey;
+		border-bottom: 3px solid #a51e24;
+		padding-bottom: 5px;
+		background-color: transparent;
+	}
+
+	#mainNav li:first-child  { border-top: none; }
+
+	#mainNav li:last-child { margin-bottom: 0; }
+  #pano {
+    background-image: url(../images/bar-web.jpg);
+    background-size: cover;
+
+
+  }
+  #pano h2 { font-size: 30px;
+}
+
+  #pano h3 { width: 545px; }
+  #pano h3 { font-size: 20px;}
+  #pano h4 { font-size: 20px;}
+
+  #learnMore { width: 170px; }
+
+  .products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 10px 20px 20px;
+  }
+  .know {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+  .know h2 {
+    text-align: center;
+    font-family: Lato;
+    font-size: 50px;
+
+  }
+  .boxBig {
+    display: flex;
+    flex-direction: row;
+  }
+  .boxPromo1 {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #D5D5D5;
+    border-radius: 10px;
+    height: 427.5px;
+    width: 317.5px;
+    padding: 10px 10px 10px 10px;
+  }
+  .boxContent {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .boxPromo1 img {
+    display: flex;
+    justify-content: center;
+    width: 215px;
+    height: 166px;
+
+    margin-top:  30px;
+    border-radius: 8px;
+  }
+  .boxPromo1 h2 {
+    display: flex;
+    flex-direction: column;
+    font-family: carlsbergregular;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+    word-spacing: 250px;
+  }
+  .boxPromo2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 62px;
+    background-color: #D5D5D5;
+    border-radius: 10px;
+    height: 427.5px;
+    width: 317.5px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 0;
+  }
+  .boxContent2 {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .boxPromo2 img {
+    display: flex;
+    justify-content: center;
+    width: 215px;
+    height: 166px;
+
+    margin-top:  30px;
+    border-radius: 8px;
+  }
+  .boxPromo2 h2 {
+    display: flex;
+    flex-direction: column;
+    font-family: carlsbergregular;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+    word-spacing: 250px;
+  }
+  .boxPromo3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 62px;
+    background-color: #D5D5D5;
+    border-radius: 10px;
+    height: 427.5px;
+    width: 317.5px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 0;
+  }
+  .boxContent3 {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .boxPromo3 img {
+    display: flex;
+    justify-content: center;
+    width: 215px;
+    height: 166px;
+
+    margin-top:  30px;
+    border-radius: 8px;
+  }
+  .boxPromo3 h2 {
+    display: flex;
+    flex-direction: column;
+    font-family: carlsbergregular;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+    word-spacing: 250px;
+  }
+  #mainFooter {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #footerNav {
+
+
+    height: 100px;
+    width: 500px;
+    background-color: #747d79;
+
+  }
+
+  nav ul{
+    text-align: center;
+    /* float: right; */
+     margin-right:  15px;
+     padding-top: 25px;
+
+
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: normal;
+    padding: 10px 5px;
+
+
+  }
+
+  nav ul li a {
+   transition: all 0.3s ease 0s;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+
+  }
+
+  nav ul li a:hover {
+  color: #0A4704;
+  }
+
+  #copyRight
+  {
+
+    margin-left: auto;
+    width: 310px;
+    height: 100px;
+
+    background-color: #747d79;
+
+
+  }
+
+  #copyRight-text {
+    padding-top: 15px;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  #copyRight-text p {
+    width: 100%;
+  }
+
+  .socialicons{
+   list-style-position: inside;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+
+
+  }
+  .socialicons li{
+
+   margin: 0 10px;
+   color: #fff;
+
+
+  }
+  .socialicons li a i{
+    width: 14px;
+    height: 14px;
+  }
+  .socialicons a:hover i{
+    color: #fff;
+  }
+  /* about us */
+  #left-box {
+    display: flex;
+    flex-direction: column;
+    width: 545px;
+    height: 811px;
+    border:2px solid #D5D5D5;
+    background-color: #D5D5D5;
+    text-align: left;
+
+  }
+  #left-box img {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 108px;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #left-box h2 {
+    display: inline;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+  }
+  .text-box  {
+    display: flex;
+    justify-content: space-around;
+
+    font-family: Lato;
+    font-size: 8px;
+    flex-direction: row;
+    width: 278px;
+    height: 130px;
+  }
+  .text-box2 {
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+    width: 120px;
+    padding-top: 5px;
+  }
+  .text-box2 p {
+
+    color: white;
+    word-spacing: 1.99px;
+    letter-spacing: 0.4px;
+  }
+  .future-box {
+    display: flex;
+    flex-direction: column;
+    width: 115px;
+    height: 106px;
+    word-spacing: 1px;
+    letter-spacing: 0.4px;
+
+  }
+  .future-box p {
+   color: white;
+  padding-top: 5px;
+  }
+  #factory {
+    display: flex;
+    flex-direction: column;
+  }
+  #factory img {
+    width: 278px;
+    height:165px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  #brew {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 143px;
+    border-radius: 30px;
+    background-color: #D5D5D5;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    border:1px solid #707070;
+
+  }
+  #brew h2{
+    font-size: 20px;
+    padding-top: 20px;
+    color: #006A38;
+    padding-left: 10px;
+
+  }
+  #brew p {
+    font-size: 10px;
+    color: #006A38;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+/* shop page */
+.intro {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+.intro h2 {
+  font-family: carlsbergregular;
+  font-size: 35px;
+  margin-top: 20px;
+  text-align: center;
+  color: #016A38;
+}
+.intro video  {
+  display: flex;
+
+  width: 443px;
+  height: 342px;
+
+  align-items: center;
+  margin-left: 100px;
+
+
+}
+
+.buy-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+}
+.buy {
+  display: flex;
+  flex-direction: column;
+
+}
+.Beer1-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  padding-top: 10px;
+  width: 140px;
+  height: 380px;
+}
+.Beer1 {
+ display: flex;
+ flex-direction: column;
+}
+.Beer1 img {
+  display: flex;
+  flex-direction: column;
+  width: 225px;
+  height: 190px;
+
+}
+.beerText1 a  {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 200px;
+  height: 120px;
+
+  border:2px solid #D5D5D5;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 20px;
+  background-color: #D5D5D5;
+  margin-bottom: 50px;
+}
+
+.beerText1 a h2 {
+  display: flex;
+  font-size: 35px;
+  color: #016A38;
+  padding-left: 10px;
+  padding-top: 10px;
+
+
+}
+.buy2 {
+  display: flex;
+  flex-direction: column;
+
+}
+.Beer2-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  padding-top: 10px;
+  width: 140px;
+  height: 380px;
+}
+.Beer2 {
+ display: flex;
+ flex-direction: column;
+ margin-left: 80px;
+}
+.Beer2 img {
+  display: flex;
+  flex-direction: column;
+  width: 225px;
+  height: 190px;
+  margin-top: 0;
+
+}
+.beerText2 a  {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 200px;
+  height: 120px;
+
+  border:2px solid #D5D5D5;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 20px;
+  background-color: #D5D5D5;
+  margin-bottom: 50px;
+}
+
+.beerText2 a h2 {
+  display: flex;
+  font-size: 35px;
+  color: #016A38;
+  padding-left: 10px;
+  padding-top: 10px;
+
+
+}
+.buy3 {
+  display: flex;
+  flex-direction: column;
+
+}
+.Beer3-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-top: 0;
+  padding-top: 10px;
+  width: 140px;
+  height: 380px;
+}
+.Beer3 {
+ display: flex;
+ flex-direction: column;
+ margin-left: 160px;
+}
+.Beer3 img {
+  display: flex;
+  flex-direction: column;
+  width: 225px;
+  height: 190px;
+  margin-top: 0;
+
+}
+.beerText3 a  {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 200px;
+  height: 120px;
+
+  border:2px solid #D5D5D5;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 20px;
+  background-color: #D5D5D5;
+  margin-bottom: 50px;
+}
+
+.beerText3 a h2 {
+  display: flex;
+  font-size: 35px;
+  color: #016A38;
+  padding-left: 10px;
+  padding-top: 10px;
+
+
+}
+#navList {
+ display: flex;
+ margin: auto;
+ justify-content: space-around;
+}
+#navList li {
+	display:block;
+	list-style-type:none;
+	padding:0px 10px;
+	cursor:pointer;
+}
+/* beer page */
+
+#beerSlide {
+
+
+
+}
+.beerpanel {
+display: inline;
+overflow: hidden;
+
+width:1094px;
+height:350px;
+z-index: 2;
+animation: slideIn 2s ease-out 1, fadeIn 2s ease-out 1;
+}
+.beerpanel img {
+  display: flex;
+  width: 400px;
+  height: 245px;
+ justify-content: center;
+ margin-left: 80px;
+ margin-top: 20px;
+}
+.beerpanel h2 {
+  font-family: carlsbergregular;
+  font-size: 50px;
+  margin-top: 62px;
+}
+.beerpanel h3 {
+  font-family: Lato;
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+.beerpanel p {
+  font-family: Lato;
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+.hidden {
+  display: none;
+}
+#links {
+position: absolute;
+left:40px;
+top:450px;
+width:500px;
+height:350px;
+z-index:2;
+margin-bottom: 300px;
+}
+
+#swapbutton {
+  display: flex;
+
+  width:160px;
+  border: 2px solid #D5D5D5;
+  border-radius: 2px;
+  margin-left: 45px;
+margin-top: 10px;
+}
+}
