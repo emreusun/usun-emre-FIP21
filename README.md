@@ -1,6 +1,6 @@
 # Usun-Emre-FIP
 Emre USUN Summer 21 Final Integrated Project
-#PROJECT DESCRIPTION
+# PROJECT DESCRIPTION
 5 pages made with css,html and javacript for brand mashup FIP.
 # MIT License
 MIT License
