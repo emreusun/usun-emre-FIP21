@@ -1379,7 +1379,7 @@ flex-direction: column;
   }
   #factory img {
     width: 278px;
-    height:165px;
+    height:203px;
     border-radius: 10px;
     margin-top: 10px;
     margin-left: 30px;
@@ -1388,7 +1388,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     width: 290px;
-    height: 143px;
+    height: 503px;
     border-radius: 30px;
     background-color: #D5D5D5;
     text-align: left;
@@ -2380,16 +2380,16 @@ flex-direction: row;
 
   font-size: 15px;
   display: inline;
-  flex-direction: row;
+  flex-direction: column;
   text-align: center;
-  color: white;
+
 
 }
 #left-box p {
 
   font-size: 10px;
-  display: inline;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   color: white;
 
@@ -2408,7 +2408,7 @@ flex-direction: row;
   display: flex;
   flex-direction: row;
   height: 10px;
-  width: 1220px;
+  width: 220px;
   padding-top: 5px;
 }
 .text-box2 p {
